@@ -37,8 +37,7 @@
                                 <a href="#points" class="item">Points</a>
                                 <a href="#cards" class="item">Cards</a>
                                 <a href="#gears" class="item">Gears</a>
-                                <a href="#xtals" class="item">Xtals & Charms</a>
-                                <a href="#token" class="item">Tokens & Petals</a>
+                                <a href="#inventory-gears" class="item">Inventory Gears</a>
                                 <a href="#refine" class="item">Refine</a>
                                 <a href="#enchant" class="item">Enchant</a>
                                 <a href="#deposit" class="item">Deposit</a>
@@ -68,7 +67,7 @@
                             <b>SYSTEM</b>
                             <div class="menu">
                                 <a href="#farm" class="item">Farming</a>
-                                <a href="#quest" class="item">Quest</a>
+                                <!-- <a href="#quest" class="item">Quest</a> -->
                                 <a href="#auto-events" class="item">Automated Events</a>
                                 <a href="#side-game" class="item">Side Game</a>
                             </div>
@@ -107,8 +106,10 @@
                                         <div class="item">Added Cards Guide</div>
                                         <div class="item">Added Automated Events Guide</div>
                                         <div class="item">Added Information at MVP/Monster Guide</div>
+                                        <div class="item">Update Menu</div>
+                                        <div class="item">Update Home</div>
+                                        <div class="item">Update Gears</div>
                                         <div class="item">Update Range Class at Job/Classes Guide</div>
-                                        <div class="item">Update Menu Links</div>
                                     </div>
                                 </div>
                             </div>
@@ -277,16 +278,24 @@
                                                         </div>
                                                     </li>
                                                     <li class="item">
-                                                        <div class="header">Xtals & Charms</div>
+                                                        <div class="header">Inventory Gears</div>
                                                         <div class="description">
-                                                            <p>Shows information about Xtals & Charms in RageRO.</p>
+                                                            <p>Shows information about gears in RageRO.</p>
                                                         </div>
-                                                    </li>
-                                                    <li class="item">
-                                                        <div class="header">Tokens & Petals</div>
-                                                        <div class="description">
-                                                            <p>Shows information about Tokens & Petals in RageRO.</p>
-                                                        </div>
+                                                        <ol>
+                                                            <li class="item">
+                                                                <div class="header">Xtals & Charms</div>
+                                                                <div class="description">
+                                                                    <p>Shows information about Xtals & Charms in RageRO.</p>
+                                                                </div>
+                                                            </li>
+                                                            <li class="item">
+                                                                <div class="header">Tokens & Petals</div>
+                                                                <div class="description">
+                                                                    <p>Shows information about Tokens & Petals in RageRO.</p>
+                                                                </div>
+                                                            </li>
+                                                        </ol>
                                                     </li>
                                                     <li class="item">
                                                         <div class="header">Refine</div>
@@ -394,12 +403,12 @@
                                                             <p>Shows information about farming.</p>
                                                         </div>
                                                     </li>
-                                                    <li class="item">
+                                                    <!-- <li class="item">
                                                         <div class="header">Quest</div>
                                                         <div class="description">
                                                             <p>Shows information about quest.</p>
                                                         </div>
-                                                    </li>
+                                                    </li> -->
                                                     <li class="item">
                                                         <div class="header">Automated Events</div>
                                                         <div class="description">
@@ -1219,7 +1228,7 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>+15 Relic Certificate</td>
+                                                <td>+15 Certificate</td>
                                                 <td>
                                                     <div class="ui bulleted list">
                                                         <div class="item">Currency at Certificate Manager.</div>
@@ -2774,7 +2783,7 @@
                                                         <div class="ui bulleted list">
                                                             <div class="item">LOWER HEADGEAR</div>
                                                                 <div class="list">
-                                                                    <div class="item">Supporter's Essence[2]</div>
+                                                                    <div class="item">Supporter's Essense[2]</div>
                                                                         <div class="list">
                                                                             <div class="scavenger_roi_location item"></div>
                                                                             <div class="certificate_manager_location item"></div>
@@ -2879,9 +2888,345 @@
                                         </table>
                                     </div>
 
-                                <div id="xtals" class="ui inverted segment"><h4 class="ui header">Xtals & Charms</h4></div>
+                                    <!-- Costume Cards -->
+                                    <table class="ui celled table">
+                                        <thead>
+                                            <tr class="center aligned">
+                                                <th>COSTUME CARDS</th>
+                                                <th>POSITION</th>
+                                                <th>RESTRICTION</th>
+                                                <th>OBTAINABLE</th>
+                                                <th>COMPOUND</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">VIP Charms</div>
+                                                            <div class="list">
+                                                                <div class="item">STR</div>
+                                                                <div class="item">DEX</div>
+                                                                <div class="item">INT</div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Upper Head Costume</div>
+                                                            <div class="list">
+                                                                <div class="item">Slot 1 & 2</div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>N/A</td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Donate Shop</div>
+                                                            <div class="list">
+                                                                <div class="donate_shop_location item"></div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>Double Click to compound the Charm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Runes</div>
+                                                            <div class="list">
+                                                                <div class="item">Runes of Life</div>
+                                                                <div class="item">Runes of Resistance</div>
+                                                                <div class="item">Runes of Reflect (Melee, Range, Magic)</div>
+                                                                <div class="item">Runes of Reduce Reflect (Melee, Range, Magic)</div>
+                                                                <div class="item">Runes of Amplify</div>
+                                                                <div class="item">Runes of Attack</div>
+                                                                <div class="item">Runes of Long Attack</div>
+                                                                <div class="item">Runes of Attack</div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Upper Head Costume</div>
+                                                            <div class="list">
+                                                                <div class="item">Slot 3 & 4</div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>No repetition of <b>same Runes</b> (Ex. Runes of Attack & Runes of Attack)</td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Mr. Trader</div>
+                                                            <div class="list">
+                                                                <div class="mr_trader_location item"></div>
+                                                            </div>
+                                                        <div class="item">Rebirth Shop</div>
+                                                            <div class="list">
+                                                                <div class="rebirth_shop_location item"></div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>Check <a href="#enchant">Enchant</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">VIP Charms</div>
+                                                            <div class="list">
+                                                                <div class="item">HP</div>
+                                                                <div class="item">Defense</div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">BTS Clip</div>
+                                                            <div class="list">
+                                                                <div class="item">Slot 1 & 2</div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>N/A</td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Donate Shop</div>
+                                                            <div class="list">
+                                                                <div class="donate_shop_location item"></div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>Double Click to compound the Charm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">VIP Charms</div>
+                                                            <div class="list">
+                                                                <div class="item">Attack</div>
+                                                                <div class="item">Long Atk</div>
+                                                                <div class="item">Matk</div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Supporter's Essense</div>
+                                                            <div class="list">
+                                                                <div class="item">Slot 1 & 2</div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>N/A</td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Donate Shop</div>
+                                                            <div class="list">
+                                                                <div class="donate_shop_location item"></div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>Double Click to compound the Charm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Spheres</div>
+                                                            <div class="list">
+                                                                <div class="item">Hervor</div>
+                                                                <div class="item">Alvrix</div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Casino King Suit</div>
+                                                            <div class="list">
+                                                                <div class="item">Slot 1</div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>N/A</td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Donate Shop</div>
+                                                            <div class="list">
+                                                                <div class="donate_shop_location item"></div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>Double Click to compound the Sphere</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Relics</div>
+                                                            <div class="list">
+                                                                <div class="item">Relic of Skill Damage I & II</div>
+                                                                <div class="item">Relic of Amplify</div>
+                                                                <div class="item">Relic of HitAt</div>
+                                                                <div class="item">Relic of Master Attack</div>
+                                                                <div class="item">Relic of Range Attack</div>
+                                                                <div class="item">Relic of Return (Melee, Range, Magic)</div>
+                                                                <div class="item">Relic of Reduce Return (Melee, Range, Magic)</div>
+                                                                <div class="item">Relic of Casting Cupid</div>
+                                                                <div class="item">Relic of Abyss</div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Relic Weapon</div>
+                                                            <div class="list">
+                                                                <div class="item">Slot 2 - 4</div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>No repetition of <b>same Relic</b> (Ex. Relic of Abyss & Relic of Abyss)</td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Mr. Trader</div>
+                                                            <div class="list">
+                                                                <div class="mr_trader_location item"></div>
+                                                            </div>
+                                                        <div class="item">Rebirth Shop</div>
+                                                            <div class="list">
+                                                                <div class="rebirth_shop_location item"></div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>Check <a href="#enchant">Enchant</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Stones</div>
+                                                            <div class="list">
+                                                                <div class="item">Range Attack V</div>
+                                                                <div class="item">Attack IV & V</div>
+                                                                <div class="item">Magic Attack IV & V</div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Costume Garment</div>
+                                                            <div class="list">
+                                                                <div class="item">Slot 3 & 4</div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>No repetition of <b>same Stone with same Level</b> (Ex. Range Attack V & Range Attack V)</td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Mr. Trader</div>
+                                                            <div class="list">
+                                                                <div class="mr_trader_location item"></div>
+                                                            </div>
+                                                        <div class="item">Rebirth Shop</div>
+                                                            <div class="list">
+                                                                <div class="rebirth_shop_location item"></div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>Check <a href="#enchant">Enchant</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Destiny Dust</div>
+                                                            <div class="list">
+                                                                <div class="item">Destiny Dust I & II (Job/Class)</div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Santa's Footprint</div>
+                                                            <div class="list">
+                                                                <div class="item">Slot 3 & 4</div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>No repetition of <b>same Destiny Dust (Job/Class) with same Level</b> (Ex. Destiny Dust I (Rebellion) & Destiny Dust I (Rebellion))</td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Mr. Trader</div>
+                                                            <div class="list">
+                                                                <div class="mr_trader_location item"></div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>Check <a href="#enchant">Enchant</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Talents</div>
+                                                            <div class="list">
+                                                                <div class="item">Talent of Resist</div>
+                                                                <div class="item">Talent of Attack</div>
+                                                                <div class="item">Talent of Range Attack</div>
+                                                                <div class="item">Talent of HP</div>
+                                                                <div class="item">Talent of Magic</div>
+                                                                <div class="item">Talent of Coat</div>
+                                                                <div class="item">Talent of Dodge</div>
+                                                                <div class="item">Talent of Def</div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Scavenger Ring</div>
+                                                            <div class="list">
+                                                                <div class="item">Slot 2 - 4</div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>No repetition of <b>same Talent</b> (Ex. Talent of Attack & Talent of Attack)</td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Rebirth Shop</div>
+                                                            <div class="list">
+                                                                <div class="rebirth_shop_location item"></div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>Check <a href="#enchant">Enchant</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Skill Increase</div>
+                                                            <div class="list">
+                                                                <div class="item">Skill Increase I & II </div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Pendant</div>
+                                                            <div class="list">
+                                                                <div class="item">Slot 3 & 4</div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>No repetition of <b>same Skill Increase with same Level</b> (Ex. Skill Increase I (Bowling Bash) & Skill Increase I (Bowling Bash))</td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Rebirth Shop</div>
+                                                            <div class="list">
+                                                                <div class="rebirth_shop_location item"></div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>Check <a href="#enchant">Enchant</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
 
-                                <div id="tokens" class="ui inverted segment"><h4 class="ui header">Tokens & Petals</h4></div>
+                                <!-- Inventory Gears -->
+                                <div id="inventory-gears" class="ui inverted segment"><h4 class="ui header">Inventory Gears</h4></div>
 
                                 <div id="refine" class="ui inverted segment"><h4 class="ui header">Refine</h4></div>
 
