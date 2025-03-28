@@ -101,6 +101,7 @@
                                     <h4 class="ui header">What's New?</h4>
 
                                     <div class="ui bulleted list">
+                                        <div class="item">Added Refine Guide</div>
                                         <div class="item">Added Inventory Gears Guide</div>
                                         <div class="item">Added Mining at Farming Guide</div>
                                         <div class="item">Update Refined Nyd on Cards Guide</div>
@@ -3538,7 +3539,90 @@
                                         </tbody>
                                     </table>
 
+                                <!-- Refine -->
                                 <div id="refine" class="ui inverted segment"><h4 class="ui header">Refine</h4></div>
+                                <p>Below are information regarding on refinement of gears.</p>
+                               
+                                    <table class="ui celled table">
+                                        <thead>
+                                            <tr>
+                                                <th><center>REFINE</center></th>
+                                                <th><center>DESCRIPTION</center></th>
+                                                <th><center>OBTAINABLE</center></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>VIP Refine Stone</td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Can refine <b>General Gears</b> only with 1% success chance until +15.</div>
+                                                        <div class="item">Consumes 5 pieces per refine.</div>
+                                                        <div class="item">Double click to use it.</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Reward at Valkyrie Dungeon (Pietri)</div>
+                                                            <div class="list">
+                                                                <div class="pietri_location item"></div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Santa's Candy Crane</td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Can refine <b>General Gears</b> only with 100% success chance until +15.</div>
+                                                        <div class="item">Double click to use it.</div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Random reward at Mining</div>
+                                                            <div class="list">
+                                                                <div class="mining_location item"></div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Credit Refiner</td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Can refine <b>General Gears and Costume Gears</b> until +15.</div>
+                                                        <div class="item">Safe until +10 then +11 to +15 will downgrade when failed.</div>
+                                                        <div class="item">Cost 15 Credits and 250 Million Zeny per refine at Credit Refiner.</div>
+                                                            <div class="list">
+                                                                <div class="credit_refiner_location item"></div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>N/A</td>
+                                            </tr>
+                                            <tr>
+                                                <td>+16 to +20 Refine Ticket</td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Can refine <b>General Gears and Costume Gears</b> with 100% success chance from +16 to +20.</div>
+                                                        <div class="item">Can be used at +16 to +20 Refiner.</div>
+                                                            <div class="list">
+                                                                <div class="max_refiner_location item"></div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="ui bulleted list">
+                                                        <div class="item">Mr. Trader</div>
+                                                            <div class="list">
+                                                                <div class="mr_trader_location item"></div>
+                                                            </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
 
                                 <div id="enchant" class="ui inverted segment"><h4 class="ui header">Enchant</h4></div>
 
@@ -5753,7 +5837,7 @@
                                 <p>Below are the side game/activities that you can do besides on farming.</p>
 
                                     <div id="endless" class="ui inverted purple segment"><h4 class="ui header">Endless Tower</h4></div>
-                                    
+
                                     <!-- Endless Tower -->
                                     <table class="ui celled table">
                                         <thead>
@@ -6333,6 +6417,24 @@
         var slot_machine = document.getElementsByClassName("slot_machine_location");
         for(var i = 0; i < slot_machine.length; i++) {
             slot_machine[i].innerHTML = slot_machine_location;
+        }
+
+        var pietri_location = "LOCATION: <a><i>@warp invek 166 193</i></a>";
+        var pietri = document.getElementsByClassName("pietri_location");
+        for(var i = 0; i < pietri.length; i++) {
+            pietri[i].innerHTML = pietri_location;
+        }
+
+        var credit_refiner_location = "LOCATION: <a><i>@warp prt_in 63 67</i></a>";
+        var credit_refiner = document.getElementsByClassName("credit_refiner_location");
+        for(var i = 0; i < credit_refiner.length; i++) {
+            credit_refiner[i].innerHTML = credit_refiner_location;
+        }
+
+        var max_refiner_location = "LOCATION: <a><i>@warp prt_in 84 65</i></a>";
+        var max_refiner = document.getElementsByClassName("max_refiner_location");
+        for(var i = 0; i < max_refiner.length; i++) {
+            max_refiner[i].innerHTML = max_refiner_location;
         }
     }
 </script>
